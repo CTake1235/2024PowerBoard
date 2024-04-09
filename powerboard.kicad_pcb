@@ -1425,7 +1425,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "30c40390-bc8e-4aa8-8880-6157d9758272")
-		(at 192.405 140.97)
+		(at 192.405 142.875)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H3"
@@ -7457,7 +7457,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "b7ffc3be-83d1-4153-a357-cdfcad67acc1")
-		(at 120.015 140.97)
+		(at 120.015 142.875)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H4"
@@ -9118,88 +9118,88 @@
 		(uuid "4484bef3-ccf8-42bc-9522-e2de5f2eeaba")
 	)
 	(gr_arc
-		(start 196.85 142.415)
-		(mid 195.97132 144.53632)
-		(end 193.85 145.415)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "07779f14-6bd1-42ed-97a3-19df6df2f91f")
-	)
-	(gr_arc
 		(start 115.57 86.82)
 		(mid 116.44868 84.69868)
 		(end 118.57 83.82)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "18d23946-0fbd-4570-9da9-8dc1929f9db1")
+		(uuid "205e5034-35af-4988-a76d-a4c0ee47d213")
+	)
+	(gr_line
+		(start 196.85 86.82)
+		(end 196.85 144.32)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "43ac19e6-f4a8-45c8-aee5-c76ea90b67ff")
+	)
+	(gr_arc
+		(start 118.57 147.32)
+		(mid 116.44868 146.44132)
+		(end 115.57 144.32)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "641ead54-384d-4dd2-891f-dbfc0cd2b625")
+	)
+	(gr_line
+		(start 115.57 144.32)
+		(end 115.57 86.82)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "71ad9032-843e-48c1-8929-a364cce32ac7")
+	)
+	(gr_arc
+		(start 196.85 144.32)
+		(mid 195.97132 146.44132)
+		(end 193.85 147.32)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7207eac9-8b65-4b02-8114-d2a3bc631c56")
+	)
+	(gr_line
+		(start 193.85 147.32)
+		(end 118.57 147.32)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "760201af-de8e-4f6a-97e4-3229d4671a7b")
 	)
 	(gr_arc
 		(start 193.85 83.82)
 		(mid 195.97132 84.69868)
 		(end 196.85 86.82)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "3ed7bda5-d791-48b2-9d6d-464844ef9246")
+		(uuid "90f521bc-0d5e-49e9-b8f4-0ef844af39a3")
 	)
 	(gr_line
 		(start 118.57 83.82)
 		(end 193.85 83.82)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6f4daca6-dc40-4b3d-9103-365dd64dc86f")
-	)
-	(gr_arc
-		(start 118.57 145.415)
-		(mid 116.44868 144.53632)
-		(end 115.57 142.415)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "725902d1-2523-48f2-970e-570ec37c2250")
-	)
-	(gr_line
-		(start 115.57 142.415)
-		(end 115.57 86.82)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9f1551a3-b1e4-4f7b-b065-47458030ab97")
-	)
-	(gr_line
-		(start 193.85 145.415)
-		(end 118.57 145.415)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e1f4f14f-07c8-463c-9007-5c7edc6410b4")
-	)
-	(gr_line
-		(start 196.85 86.82)
-		(end 196.85 142.415)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f4a31263-9e4c-4d25-8ece-044d67e32bed")
+		(uuid "c242c8d4-1dad-4a96-9c14-0106651e6f7d")
 	)
 	(gr_text "GND\n+5V\nSIG"
 		(at 151.384 97.536 90)
@@ -9375,15 +9375,15 @@
 	(dimension
 		(type aligned)
 		(layer "Cmts.User")
-		(uuid "dfd626e7-564a-4633-b195-f0804650ed23")
+		(uuid "b708faa6-a4b8-472a-a15d-2ab63b8ebbeb")
 		(pts
-			(xy 193.85 83.82) (xy 193.85 145.415)
+			(xy 196.85 83.82) (xy 196.85 147.32)
 		)
-		(height -17.605)
-		(gr_text "61.5950 mm"
-			(at 210.305 114.6175 90)
+		(height -16.51)
+		(gr_text "63.5000 mm"
+			(at 212.21 115.57 90)
 			(layer "Cmts.User")
-			(uuid "dfd626e7-564a-4633-b195-f0804650ed23")
+			(uuid "b708faa6-a4b8-472a-a15d-2ab63b8ebbeb")
 			(effects
 				(font
 					(size 1 1)
