@@ -3169,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 144.78 81.28)
+			(xy 144.78 83.82) (xy 144.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3199,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 144.78 91.44)
+			(xy 143.51 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3447,22 +3447,22 @@
 	)
 	(global_label "VOUT"
 		(shape output)
-		(at 146.05 91.44 0)
+		(at 143.51 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a89d87ca-ae89-4210-9d84-7d650eb74141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7524 91.44 0)
+			(at 135.8076 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3579,7 +3579,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 154.94 83.82 0)
+		(at 154.94 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3587,8 +3587,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08b278ef-d81e-4b6a-8292-6376864b5d45")
-		(property "Reference" "#PWR014"
-			(at 154.94 88.9 0)
+		(property "Reference" "#PWR012"
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3597,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 154.813 87.63 0)
+			(at 154.813 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 85.09 0)
+			(at 154.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 85.09 0)
+			(at 154.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 154.94 83.82 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3637,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d4ea838-7d34-4021-ac84-109aef96db44")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 270.51 41.91 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a2a4b3a-c4d3-415e-aaf6-74ac6d7fc75e")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 222.25 41.9099 0)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4459,7 +4459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "348f30dc-587e-4380-84c8-6d0ec91cb5bf")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 199.39 41.9099 0)
 			(effects
 				(font
@@ -4513,7 +4513,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4592,7 +4592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37e45ea2-01d1-4129-8ac1-9abe5a1c5171")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 158.75 45.72 0)
 			(effects
 				(font
@@ -4642,7 +4642,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4098fe9c-ed9d-433d-9e49-d5627a8d6c21")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 246.38 41.91 0)
 			(effects
 				(font
@@ -4711,7 +4711,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4865,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db52d6e-29cd-43f5-9c4f-52c9748def24")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 158.75 38.1 0)
 			(effects
 				(font
@@ -4915,7 +4915,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4987,6 +4987,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 154.94 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "555c0299-7b0c-40d2-9132-6999b88aeead")
+		(property "Reference" "R4"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 153.162 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d306426-73b5-45a1-bb7f-ce94d0972ef7")
+		)
+		(pin "2"
+			(uuid "a7f09380-ef1b-4b12-86dc-fc04018b3504")
+		)
+		(instances
+			(project "powerboard"
+				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 90.17 39.37 0)
 		(unit 1)
@@ -4996,7 +5065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f58ab9-b8eb-41e8-ab18-35e36b3fa8ea")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 90.17 44.45 0)
 			(effects
 				(font
@@ -5046,7 +5115,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5322,7 +5391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6958542f-a9d9-4dba-b11a-5431d33b2ba9")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -5372,7 +5441,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5458,7 +5527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd9d7b8-8f95-4cb5-8738-bcf9c2adba69")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 110.49 31.75 0)
 			(effects
 				(font
@@ -5474,7 +5543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MIWI06-24S05:MIWI06-24S05"
 			(at 97.79 36.83 0)
 			(effects
 				(font
@@ -5525,7 +5594,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5673,7 +5742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76cf5965-c529-42b9-bb92-039ecaa2adf4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 113.03 80.01 0)
 			(effects
 				(font
@@ -5723,7 +5792,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5817,7 +5886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "10k"
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -5826,7 +5895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 153.162 80.01 90)
 			(effects
 				(font
@@ -6157,7 +6226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -6283,7 +6352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa261e1f-891a-492a-8b0c-90653bf891d2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -6333,7 +6402,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6821,7 +6890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0202caa-6b1b-4605-a1c3-9aa7f5005223")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 105.41 64.135 0)
 			(effects
 				(font
@@ -6882,7 +6951,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6964,7 +7033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e47dc837-7cee-4aff-90e0-faf4fca17f2e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 127 43.18 0)
 			(effects
 				(font
@@ -7014,7 +7083,7 @@
 		(instances
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
