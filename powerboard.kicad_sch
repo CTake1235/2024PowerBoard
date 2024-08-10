@@ -1408,6 +1408,150 @@
 				)
 			)
 		)
+		(symbol "Diode:ZPDxx"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZPDxx"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mW Zener Diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZPDxx_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ZPDxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -2925,16 +3069,16 @@
 		)
 	)
 	(junction
+		(at 144.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2812acfa-4fc2-43b6-a9fc-055b3c290dea")
+	)
+	(junction
 		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e2b2e5c-bc0a-4fe7-940e-af126b7dafba")
-	)
-	(junction
-		(at 144.78 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0ddbaf1-e76d-45eb-9d1f-a16e8a092745")
 	)
 	(no_connect
 		(at 97.79 33.02)
@@ -2982,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 62.23) (xy 144.78 68.58)
+			(xy 144.78 57.15) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3009,16 +3153,6 @@
 			(type default)
 		)
 		(uuid "474e7bbb-4dd3-43a7-9ad5-3c9156f1ad89")
-	)
-	(wire
-		(pts
-			(xy 144.78 68.58) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5996b81d-2810-4ded-8973-37db352d3827")
 	)
 	(wire
 		(pts
@@ -3132,6 +3266,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 66.04) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30cee15-1f18-4920-87d3-03ef2a3b3f74")
+	)
+	(wire
+		(pts
 			(xy 60.96 38.1) (xy 60.96 39.37)
 		)
 		(stroke
@@ -3152,13 +3296,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 154.94 68.58)
+			(xy 144.78 66.04) (xy 144.78 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de83e6d3-01db-4f0f-931c-507c26cf23a6")
+		(uuid "d3ef1c49-9f59-49d4-be3b-7cca81386bec")
 	)
 	(wire
 		(pts
@@ -3169,6 +3313,16 @@
 			(type default)
 		)
 		(uuid "ec10078f-8c44-4062-81b7-9b969cf3b750")
+	)
+	(wire
+		(pts
+			(xy 154.94 66.04) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd2aa65-bc18-486e-9a86-40acd0209c93")
 	)
 	(global_label "sig"
 		(shape input)
@@ -3495,72 +3649,6 @@
 			(project "powerboard"
 				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 154.94 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08b278ef-d81e-4b6a-8292-6376864b5d45")
-		(property "Reference" "#PWR012"
-			(at 154.94 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 154.813 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 154.94 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "678a9bea-87a6-4cd9-bbfc-f0842cdfc54a")
-		)
-		(instances
-			(project "powerboard"
-				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3969,7 +4057,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 144.78 62.23 0)
+		(at 144.78 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3978,7 +4066,7 @@
 		(fields_autoplaced yes)
 		(uuid "19cb63ad-fdd2-4642-a314-e92779fef3e2")
 		(property "Reference" "#PWR011"
-			(at 144.78 66.04 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4075,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 144.78 57.15 0)
+			(at 144.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +4083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 62.23 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 62.23 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 144.78 62.23 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,75 +4998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 154.94 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "555c0299-7b0c-40d2-9132-6999b88aeead")
-		(property "Reference" "R4"
-			(at 149.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 153.162 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d306426-73b5-45a1-bb7f-ce94d0972ef7")
-		)
-		(pin "2"
-			(uuid "a7f09380-ef1b-4b12-86dc-fc04018b3504")
-		)
-		(instances
-			(project "powerboard"
-				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 96.52 44.45 0)
 		(unit 1)
@@ -5709,75 +5728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 154.94 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a5d8cb8-0139-4a0d-ba80-8e64a1758f8a")
-		(property "Reference" "R3"
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 153.162 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0547625-cd28-48c9-bf2b-f29d10bc8289")
-		)
-		(pin "2"
-			(uuid "b8c54a74-ae14-4c83-81fc-082ba7d80fb6")
-		)
-		(instances
-			(project "powerboard"
-				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 252.73 67.31 180)
 		(unit 1)
@@ -6049,6 +5999,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ZPDxx")
+		(at 148.59 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f981a8-82a7-4b01-a63e-8b83dd29d08b")
+		(property "Reference" "D5"
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZX55C9V1"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+			(at 148.59 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mW Zener Diode, DO-35"
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2d64dbe-8516-4f06-936d-afe954ff8bc2")
+		)
+		(pin "1"
+			(uuid "9a70a3c9-b951-40e3-9335-b2a4aff34fd2")
+		)
+		(instances
+			(project ""
+				(path "/f61afb78-be8f-4a5f-ad16-61c0881e4198"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 154.94 72.39 0)
 		(unit 1)
@@ -6066,7 +6084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k8"
 			(at 149.86 72.39 0)
 			(effects
 				(font
