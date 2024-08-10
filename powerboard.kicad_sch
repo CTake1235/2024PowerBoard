@@ -3069,30 +3069,20 @@
 		)
 	)
 	(junction
+		(at 153.67 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f62bc5ed-7b88-424c-9d56-ac0b049ea3cd")
+	)
+	(junction
 		(at 144.78 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2812acfa-4fc2-43b6-a9fc-055b3c290dea")
-	)
-	(junction
-		(at 154.94 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e2b2e5c-bc0a-4fe7-940e-af126b7dafba")
+		(uuid "ffcd07d2-7e58-4d68-ba4f-124afe174488")
 	)
 	(no_connect
 		(at 97.79 33.02)
 		(uuid "8380f1be-ea2f-4177-a272-e841c1a5f63a")
-	)
-	(wire
-		(pts
-			(xy 154.94 76.2) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06af96aa-987c-4fde-8250-a19c8a9f1849")
 	)
 	(wire
 		(pts
@@ -3126,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 57.15) (xy 144.78 66.04)
+			(xy 144.78 60.96) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3186,6 +3176,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 66.04) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a738bf3-e9c3-48f5-8369-5473acd1561b")
+	)
+	(wire
+		(pts
 			(xy 96.52 38.1) (xy 97.79 38.1)
 		)
 		(stroke
@@ -3196,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a03477-b61f-4186-8829-b26af7323a89")
+	)
+	(wire
+		(pts
 			(xy 97.79 74.93) (xy 97.79 77.47)
 		)
 		(stroke
@@ -3203,6 +3213,16 @@
 			(type default)
 		)
 		(uuid "8aafc97e-5ea8-433b-8cd5-c667613137e5")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bef65d4-8832-46b0-8f09-8e327a8fa573")
 	)
 	(wire
 		(pts
@@ -3246,16 +3266,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 76.2) (xy 154.94 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af842ded-fece-41e7-9ea5-add2c5dbdb5b")
-	)
-	(wire
-		(pts
 			(xy 96.52 44.45) (xy 96.52 43.18)
 		)
 		(stroke
@@ -3263,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "b21994f9-3019-4497-a64a-8a206de12630")
-	)
-	(wire
-		(pts
-			(xy 152.4 66.04) (xy 154.94 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30cee15-1f18-4920-87d3-03ef2a3b3f74")
 	)
 	(wire
 		(pts
@@ -3296,16 +3296,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3ef1c49-9f59-49d4-be3b-7cca81386bec")
-	)
-	(wire
-		(pts
 			(xy 93.98 69.85) (xy 97.79 69.85)
 		)
 		(stroke
@@ -3316,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 154.94 68.58)
+			(xy 153.67 66.04) (xy 153.67 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3348,22 +3338,22 @@
 	)
 	(global_label "FET_G"
 		(shape input)
-		(at 156.21 76.2 0)
+		(at 153.67 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "19adbffa-20d3-4a35-bca9-4e2eb0e979c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.638 76.2 0)
+			(at 145.242 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4057,7 +4047,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 144.78 57.15 0)
+		(at 144.78 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4066,7 +4056,7 @@
 		(fields_autoplaced yes)
 		(uuid "19cb63ad-fdd2-4642-a314-e92779fef3e2")
 		(property "Reference" "#PWR011"
-			(at 144.78 60.96 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4065,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 144.78 52.07 0)
+			(at 144.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 57.15 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 57.15 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 144.78 57.15 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +5990,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ZPDxx")
-		(at 148.59 66.04 0)
+		(at 153.67 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6009,23 +5999,25 @@
 		(fields_autoplaced yes)
 		(uuid "a3f981a8-82a7-4b01-a63e-8b83dd29d08b")
 		(property "Reference" "D5"
-			(at 148.59 59.69 0)
+			(at 156.21 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "BZX55C9V1"
-			(at 148.59 62.23 0)
+			(at 156.21 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 148.59 70.485 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 149.225 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +6026,7 @@
 			)
 		)
 		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
-			(at 148.59 66.04 0)
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6035,7 @@
 			)
 		)
 		(property "Description" "500mW Zener Diode, DO-35"
-			(at 148.59 66.04 0)
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6060,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 72.39 0)
+		(at 153.67 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6076,7 +6068,7 @@
 		(dnp no)
 		(uuid "a5a2faae-9852-4703-99a5-fff2239c146f")
 		(property "Reference" "R2"
-			(at 149.86 69.85 0)
+			(at 148.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6077,7 @@
 			)
 		)
 		(property "Value" "1k8"
-			(at 149.86 72.39 0)
+			(at 148.59 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6086,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 153.162 72.39 90)
+			(at 151.892 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 72.39 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 72.39 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
